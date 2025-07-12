@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #e3fce8, #d0f4dc);
+    /* soft green gradient */
+}
+
+.navbar {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 1100px;
+    background-color: #e0ffd8;
+    padding: 15px 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+#topparks {
+    scroll-margin-top: 120px;
+}
+
+.logo-emoji {
+    font-size: 36px;
+    margin-right: 10px;
+    animation: bounce 2s infinite;
+    filter: drop-shadow(1px 1px 1px #145214);
+}
+
+.brand-name {
+    font-size: 26px;
+    font-weight: bold;
+    color: teal;
+    letter-spacing: 1px;
+}
+
+.logo {
+    width: 80px;
+    height: 50px;
+}
+
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem5 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem6 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem7 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+.banner-section-bg-container {
+    background-image: url("https://www.thournatureresorts.com/blog/wp-content/uploads/2020/07/12.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.banner-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.banner-caption {
+    color: #f5f7fa;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.btn {
+    color: green;
+    background-color: white;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added this line for the white box effect */
+}
+
+.tp-section {
+    padding: 40px;
+    background-color: #f5fff5;
+    font-family: Arial, sans-serif;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #2f4f4f;
+}
+
+.parks-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.park-card {
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 29px;
+    /* 5px rounded corners */
+}
+
+.park-card:hover {
+    transform: scale(1.03);
+}
+
+.park-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.park-info {
+    padding: 16px;
+}
+
+.park-info h2 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    color: #006400;
+}
+
+.park-info p {
+    margin: 5px 0;
+    color: #333;
+    font-size: 14px;
+}
+
+.states-table-section {
+    padding: 40px;
+    background-color: #f3fff3;
+    font-family: Arial, sans-serif;
+}
+
+.states-table-section h2 {
+    text-align: center;
+    color: #2f4f4f;
+    margin-bottom: 20px;
+}
+
+.states-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.states-table th,
+.states-table td {
+    border: 1px solid #cccccc;
+    padding: 12px 16px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.states-table th {
+    background-color: #2e8b57;
+    color: white;
+}
+
+.states-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+@media (max-width: 768px) {
+    .states-table th,
+    .states-table td {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+.flora-fauna-section {
+    padding: 50px 20px;
+    background-color: #ecfdf5;
+    /* Soft green */
+    text-align: center;
+}
+
+.flora-fauna-section h2 {
+    font-size: 2.2rem;
+    color: #065f46;
+    margin-bottom: 10px;
+}
+
+.flora-fauna-section .intro {
+    color: #374151;
+    max-width: 700px;
+    margin: 0 auto 40px;
+    font-size: 1rem;
+}
+
+.subsection h3 {
+    font-size: 1.5rem;
+    color: #047857;
+    margin: 30px 0 20px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+    padding: 0 10px;
+}
+
+.card {
+    background-color: #d1fae5;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h4 {
+    font-size: 1.2rem;
+    color: #065f46;
+}
+
+.card p {
+    color: #4b5563;
+    font-size: 0.95rem;
+    margin-top: 8px;
+}
+
+/* Corrected: Removed the extra dot before .wildlife-section */
+.wildlife-section {
+    padding: 50px 20px;
+    background-color: #f0fdf4;
+    text-align: center;
+}
+
+.wildlife-section h2 {
+    font-size: 2.2rem;
+    color: #064e3b;
+    margin-bottom: 10px;
+}
+
+.wildlife-section .intro {
+    color: #374151;
+    max-width: 700px;
+    margin: 0 auto 40px;
+    font-size: 1rem;
+}
+
+/* This .subsection h3 definition is a duplicate and was already defined above.
+   It's generally good practice to define common styles once, or if you need to override
+   them for a specific section, make the selector more specific (e.g., .wildlife-section .subsection h3).
+   For now, I'm keeping it as is since it doesn't cause a functional error, but it's something to note.
+*/
+.subsection h3 {
+    font-size: 1.5rem;
+    color: #047857;
+    margin: 30px 0 20px;
+}
+
+/* This .card-grid definition is a duplicate and was already defined above.
+   Same note as above regarding duplicate definitions.
+*/
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+    padding: 0 10px;
+}
+
+/* This .card definition is a duplicate and was already defined above.
+   The background-color here is different (#ccfbf1 vs #d1fae5), so this might be intentional
+   to provide a slightly different card look for the wildlife section.
+   If so, it's better to give it a more specific class name (e.g., .wildlife-card)
+   or make the selector more specific (e.g., .wildlife-section .card).
+*/
+.card {
+    background-color: #ccfbf1;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h4 {
+    font-size: 1.2rem;
+    color: #065f46;
+}
+
+.card p {
+    color: #4b5563;
+    font-size: 0.95rem;
+    margin-top: 8px;
+}
+
+.thank-you-section {
+    background-color: #d1fae5;
+    padding: 60px 20px;
+    text-align: center;
+    color: #065f46;
+    border-top: 2px solid #10b981;
+}
+
+.thank-you-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.thank-you-section .message {
+    font-size: 1rem;
+    max-width: 700px;
+    margin: 0 auto 15px;
+    color: #047857;
+}
+
+.thank-you-section .footer-note {
+    font-size: 1rem;
+    font-style: italic;
+    color: #064e3b;
+    margin-top: 10px;
+}
